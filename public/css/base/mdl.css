@@ -1,0 +1,117 @@
+.mdl-layout__drawer::-webkit-scrollbar{
+    display: none;
+}
+
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link{
+    padding: 16px !important;
+}
+
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover{
+    text-decoration: none !important;
+}
+
+.mdl-cell--hide{
+    display: none;
+}
+
+.mdl-switch{
+    width: auto !important;
+}
+
+.mdl-textfield__input{
+    color: #000;
+}
+
+.mdl-snackbar__action{
+    color: #fff !important;
+}
+
+.mdl-layout-title .back-link{
+    margin-top: 5px !important;
+}
+
+.mdl-layout__drawer-button{
+    outline:none;
+}
+.mdl-button,
+.mdl-layout__drawer-button{
+    display: inline-flex !important;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+}
+
+.mdl-dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+}
+
+img,
+.mdl-button,
+.material-icons{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.mdl_button_simple{
+    text-transform: none;
+    text-align: left;
+    font-size: inherit;
+    height: inherit;
+    width: auto;
+    min-width: auto;
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+    transition:none;
+
+}
+.mdl_button_simple:hover{
+    background-color: transparent;
+}
+.mdl_button_simple:active{
+    color: #000;
+}
+
+.mdl-ripple{
+    background: #555;
+}
+
+.mdl-ripple-light .mdl-ripple{
+    background: #999;
+}
+
+.mdl-ripple-dark .mdl-ripple{
+    background: #000;
+}
+
+.mdl-ripple-white .mdl-ripple{
+    background: #fff;
+}
+
+.mdl-layout__tab .mdl-layout__tab-ripple-container .mdl-ripple{
+    background: #999;
+}
+
+.md-color-text-base{
+    color: rgb(96,125,139);
+}
+
+.mdl-textfield__input[type="date"] {
+    height: 27px;
+}
+
+.mdl-layout__tab {
+    padding: 0 12px;
+}
+
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link.is-active{
+    background-color: #eee;
+}
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link.is-active:hover{
+    background-color: #ddd;
+}

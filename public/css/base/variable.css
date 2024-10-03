@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+
+
+
+    /*
+        auth
+    */
+    --dashboard-login-background: #212529;
+    --dashboard-login-form: #7D5F2B;
+    --dashboard-login-form-shadow: 0px 8px 19px 12px rgba(125, 95, 43, 0.15);
+
+
+
+
+    /*
+        font
+    */
+    --dashboard-font-family:  'Montserrat', HelveticaNeueCyr, sans-serif;
+    --dashboard-header-font-family:  'Montserrat', HelveticaNeueCyr, sans-serif;
+    --dashboard-sidebar-font-family:  'Montserrat', HelveticaNeueCyr, sans-serif;
+    --dashboard-sidebar-list-font-family:  'Montserrat', HelveticaNeueCyr, sans-serif;
+
+    /*
+        color
+    */
+    --dashboard-sidebar-logo-color: transparent;
+    --dashboard-sidebar-navbar-color: transparent;
+    --dashboard-sidebar-active-color: rgba(125, 95, 43, 0.1);
+    --dashboard-container-navbar-color: #7D5F2B;
+    --dashboard-search-border-color: rgba(81, 82, 81, 0.4);
+    --dashboard-search-close-icon-color: #7D5F2B;
+    --dashboard-body-color: #FBFAFA;
+    --dashboard-container-color: #fff;
+
+    --dashboard-primary-color: #7D5F2B;
+    /*
+        btn
+    */
+    /*
+       page link
+   */
+    --dashboard-page-link-text-color: #5c3f30;
+    --dashboard-page-link-background-color: #fff;
+    --dashboard-page-link-border-color: #dee2e6;
+    --dashboard-page-link-hover-text-color: #503629;
+    --dashboard-side-page-link-border-color: #473024;
+    --dashboard-page-link-hover-background-color: #e9ecef;
+    --dashboard-page-link-focus-box-shadow: none;
+    --dashboard-page-link-disabled-text-color: #7b5440;
+    /*
+        btn-self-info
+    */
+
+    --dashboard-btn-self-info-text-color: #fff;
+    --dashboard-btn-self-info-color: #3185FC;
+    --dashboard-btn-self-info-hover-color: #2c76df;
+    --dashboard-btn-self-info-hover-border-color: #276ac7;
+    --dashboard-btn-self-info-hover-border-color-disabled: #235eb1;
+    --dashboard-btn-self-info-box-shadow-color: 0 0 0 0.2rem rgba(49, 133, 252, 0.5);
+
+    /*
+        btn-self-danger
+    */
+
+    --dashboard-btn-self-danger-text-color: #fff;
+    --dashboard-btn-self-danger-color: #c21c2d;
+    --dashboard-btn-self-danger-hover-color: #b11524;
+    --dashboard-btn-self-danger-hover-border-color: #a5111f;
+    --dashboard-btn-self-danger-hover-border-color-disabled: #9a0d1a;
+    --dashboard-btn-self-danger-box-shadow-color: 0 0 0 0.2rem rgba(205, 38, 55, 0.5);
+
+    /*
+      btn-self-success
+    */
+
+    --dashboard-btn-self-success-text-color: #fff;
+    --dashboard-btn-self-success-color: #1d8434;
+    --dashboard-btn-self-success-hover-color: #197b2f;
+    --dashboard-btn-self-success-hover-border-color: #15712a;
+    --dashboard-btn-self-success-hover-border-color-disabled: #126826;
+    --dashboard-btn-self-success-box-shadow-color: 0 0 0 0.2rem rgba(40, 156, 66, 0.5);
+
+    /*
+      btn-self-primary
+    */
+
+    --dashboard-btn-self-primary-text-color: #fff;
+    --dashboard-btn-self-primary-color: #503629;
+    --dashboard-btn-self-primary-hover-color: #473024;
+    --dashboard-btn-self-primary-hover-border-color: #402b20;
+    --dashboard-btn-self-primary-hover-border-color-disabled: #39261c;
+    --dashboard-btn-self-primary-box-shadow-color: 0 0 0 0.2rem rgba(80, 54, 41, 0.5);
+
+
+}

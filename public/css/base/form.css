@@ -1,0 +1,78 @@
+.mdl-layout__content{
+    overflow-y: scroll;
+}
+
+.base-form {
+    padding-top: 30px;
+}
+
+.base-form input {
+    color: #000;
+}
+
+/*.base-form .is-invalid {*/
+/*    color: #d50000;*/
+/*}*/
+
+.base-form .action-buttons-div .mdl-button{
+    margin-top: 20px;
+}
+
+.base-form .footer{
+    margin: 0;
+    width: 100%;
+    margin-top: 100px;
+    border-top: solid 1px #ddd;
+    /*background-color: #f9f9f9;*/
+    padding: 20px;
+    padding-bottom: 100px;
+    margin-bottom: -20px;
+    -webkit-box-shadow: 0 -4px 8px -4px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 -4px 8px -4px rgba(0,0,0,0.2);
+    box-shadow: 0 -4px 8px -4px rgba(0,0,0,0.2);
+}
+
+.base-form .wide-card-image {
+    border: 1px solid rgba(0, 0, 0, .1);
+    margin-top: 30px;
+}
+
+.base-form .wide-card-image .mdl-card__title {
+    padding-bottom: 0 !important;
+}
+
+.base-form .wide-card-image h2 {
+    font-size: 18px !important;
+}
+
+.base-form .wide-card-image label {
+    cursor: pointer;
+}
+
+.base-form .wide-card-image input {
+    opacity: 0;
+    z-index: -1;
+    display: none;
+}
+
+.base-form .time-log {
+    margin-top: 40px; text-align: right; font-size: 11px; color: rgba(0, 0, 0, .4); line-height: 24px;
+}
+
+.base-form .mdl-textfield.text-input .mdl-textfield__label:after{
+    bottom: 20px;
+}
+/*.base-form .mdl-textfield.text-input .mdl-textfield__label:after{
+    bottom: 24px;
+}*/
+
+.base-form .divider {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+    width: calc(100% + 60px) !important;
+}

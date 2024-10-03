@@ -1,0 +1,35 @@
+.select2-result{
+    font-size: 13px;
+    line-height: 18px;
+}
+.select2-result td{
+    vertical-align: middle;
+}
+
+.select2-result .image_block{
+    width: 70px;
+    min-width: 70px;
+}
+.select2-result .image_block img{
+    object-fit: contain;
+    display: block;
+    width: 100%;
+    margin: auto;
+    max-height: 70px;
+}
+
+.select2-result .meta{
+    padding-left: 10px;
+}
+
+.select2-result .meta .title{
+    font-weight: bold;
+}
+
+.select2-container--default .select2-selection--single{
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.12);
+    border-radius: 0;
+    background-color: transparent;
+}
+

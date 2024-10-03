@@ -1,0 +1,20 @@
+.jstree-icon.glyphicon{
+    color: #008175;
+    font-size: 12px;
+}
+.jstree-icon.glyphicon.glyphicon-align-left{
+    color: #000;
+    font-size: 12px;
+}
+.jstree-icon.glyphicon.red{
+    color: #c82333;
+}
+.jstree-icon.glyphicon.black{
+    color: #000;
+}
+.jstree-icon.glyphicon.gray{
+    color: #5c5c5c;
+}
+.jstree-icon.glyphicon.blue{
+    color: #00b0a0;
+}

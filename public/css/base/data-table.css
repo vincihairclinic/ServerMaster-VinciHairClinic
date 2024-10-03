@@ -1,0 +1,112 @@
+.base-data-table{
+    overflow: auto;
+}
+
+.base-data-table tr td{
+    border-top-width: 0 !important;
+    text-align: left;
+}
+.base-data-table tr:first-child td{
+    border-top-width: 1px !important;
+}
+
+.vertical-align-top td{
+    vertical-align: top !important;
+    padding-top: 16px; !important;
+}
+.vertical-align-top td.btn-row{
+    padding-top: 10px; !important;
+}
+
+.base-data-table table{
+    width: 100% !important;
+}
+
+.base-data-table th{
+    text-transform: uppercase;
+    white-space: nowrap !important;
+    text-align: left;
+}
+
+.base-data-table td.wrap{
+    white-space: normal !important;
+}
+
+.base-data-table .details-control{
+    text-align: center;
+    cursor: pointer;
+}
+
+.base-data-table .details-tr {
+    background-color: #f8f8f8 !important;
+}
+
+/*.base-data-table .details-tr td tr:hover {
+    background-color: rgba(0,0,0,.05);
+}*/
+
+.base-data-table .details-tr td tr th{
+    text-align: center;
+}
+.base-data-table .details-tr td tr td{
+    border: none !important;
+    text-align: center;
+    /*text-align: right;
+    padding-right: 20px !important;*/
+    vertical-align: middle;
+}
+
+
+.base-data-table td.padding-height-0{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.base-data-table .mdl-textfield{
+    width: 100%;
+}
+
+.base-data-table textarea.mdl-textfield__input{
+    min-height: 25px !important;
+}
+
+.base-data-table tr.details-tr > td{
+    text-align: left;
+    padding: 0;
+    border: none !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    -webkit-box-shadow: inset 0px 2px 4px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: inset 0px 2px 4px 0px rgba(0,0,0,0.1);
+    box-shadow: inset 0px 2px 4px 0px rgba(0,0,0,0.1);
+}
+
+.base-data-table .details-tr > td > table > tbody > tr > td{
+    border-top: 1px solid rgba(0,0,0,0.05) !important;
+    padding-left: 20px;
+}
+
+/*.base-data-table .details-tr td table td:nth-child(2),
+.base-data-table .details-tr td table td:first-child {
+    text-align: right;
+    padding-right: 20px;
+}*/
+
+.base-data-table .details-tr .details_div{
+    overflow: auto !important;
+    white-space: normal !important;
+    padding: 20px;
+}
+
+.base-data-table .details-tr .details_div img{
+    width: 20%;
+}
+
+.base-data-table tr.shown td{
+    border-bottom: none !important;
+}
+.base-data-table .details-tr{
+    background-color: transparent;
+}
+
+

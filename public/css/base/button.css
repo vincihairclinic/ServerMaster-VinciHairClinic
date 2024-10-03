@@ -1,0 +1,179 @@
+.page-link {
+    color: var(--dashboard-page-link-text-color);
+    background-color: var(--dashboard-page-link-background-color);
+    border: 1px solid var(--dashboard-page-link-border-color);
+}
+
+.page-link:hover {
+    color: var(--dashboard-page-link-hover-text-color);
+    background-color: var(--dashboard-page-link-hover-background-color);
+    border-color: var(--dashboard-page-link-border-color);
+}
+
+.page-link:focus {
+    box-shadow: var(--dashboard-page-link-focus-box-shadow);
+}
+.page-item.active .page-link {
+    color: var(--dashboard-page-link-background-color);
+    background-color: var(--dashboard-page-link-text-color);
+    border-color: var(--dashboard-page-link-text-color);
+}
+
+.page-item.disabled .page-link {
+    color: var(--dashboard-page-link-disabled-text-color);
+    background-color: var(--dashboard-page-link-background-color);
+    border-color: var(--dashboard-page-link-border-color);
+}
+
+
+
+.btn-self-info {
+    color: var(--dashboard-btn-self-info-text-color);
+    background-color: var(--dashboard-btn-self-info-color);
+    border-color: var(--dashboard-btn-self-info-color);
+}
+
+.btn-self-info:hover {
+    color: var(--dashboard-btn-self-info-text-color);
+    background-color: var(--dashboard-btn-self-info-hover-color);
+    border-color: var(--dashboard-btn-self-info-hover-border-color);
+}
+
+.btn-self-info:focus, .btn-self-info.focus {
+    color: var(--dashboard-btn-self-info-text-color);
+    background-color: var(--dashboard-btn-self-info-hover-color);
+    border-color: var(--dashboard-btn-self-info-hover-border-color);
+    box-shadow: var(--dashboard-btn-self-info-box-shadow-color);
+}
+
+.btn-self-info.disabled, .btn-self-info:disabled {
+    color: var(--dashboard-btn-self-info-text-color);
+    background-color: var(--dashboard-btn-self-info-color);
+    border-color: var(--dashboard-btn-self-info-color);
+}
+
+.btn-self-info:not(:disabled):not(.disabled):active, .btn-self-info:not(:disabled):not(.disabled).active,
+.show > .btn-self-info.dropdown-toggle {
+    color: var(--dashboard-btn-self-info-text-color);
+    background-color: var(--dashboard-btn-self-info-hover-border-color);
+    border-color: var(--dashboard-btn-self-info-hover-border-color-disabled);
+}
+
+.btn-self-info:not(:disabled):not(.disabled):active:focus, .btn-self-info:not(:disabled):not(.disabled).active:focus,
+.show > .btn-self-info.dropdown-toggle:focus {
+    box-shadow: var(--dashboard-btn-self-info-box-shadow-color);
+}
+
+
+
+.btn-self-danger {
+    color: var(--dashboard-btn-self-danger-text-color);
+    background-color: var(--dashboard-btn-self-danger-color);
+    border-color: var(--dashboard-btn-self-danger-color);
+}
+
+.btn-self-danger:hover {
+    color: var(--dashboard-btn-self-danger-text-color);
+    background-color: var(--dashboard-btn-self-danger-hover-color);
+    border-color: var(--dashboard-btn-self-danger-hover-border-color);
+}
+
+.btn-self-danger:focus, .btn-self-danger.focus {
+    color: var(--dashboard-btn-self-danger-text-color);
+    background-color: var(--dashboard-btn-self-danger-hover-color);
+    border-color: var(--dashboard-btn-self-danger-hover-border-color);
+    box-shadow: var(--dashboard-btn-self-danger-box-shadow-color);
+}
+
+.btn-self-danger.disabled, .btn-self-danger:disabled {
+    color: var(--dashboard-btn-self-danger-text-color);
+    background-color: var(--dashboard-btn-self-danger-color);
+    border-color: var(--dashboard-btn-self-danger-color);
+}
+
+.btn-self-danger:not(:disabled):not(.disabled):active, .btn-self-danger:not(:disabled):not(.disabled).active,
+.show > .btn-self-danger.dropdown-toggle {
+    color: var(--dashboard-btn-self-danger-text-color);
+    background-color: var(--dashboard-btn-self-danger-hover-border-color);
+    border-color: var(--dashboard-btn-self-danger-hover-border-color-disabled);
+}
+
+.btn-self-danger:not(:disabled):not(.disabled):active:focus, .btn-self-danger:not(:disabled):not(.disabled).active:focus,
+.show > .btn-self-danger.dropdown-toggle:focus {
+    box-shadow: var(--dashboard-btn-self-danger-box-shadow-color);
+}
+
+.btn-self-success {
+    color: var(--dashboard-btn-self-success-text-color);
+    background-color: var(--dashboard-btn-self-success-color);
+    border-color: var(--dashboard-btn-self-success-color);
+}
+
+.btn-self-success:hover {
+    color: var(--dashboard-btn-self-success-text-color);
+    background-color: var(--dashboard-btn-self-success-hover-color);
+    border-color: var(--dashboard-btn-self-success-hover-border-color);
+}
+
+.btn-self-success:focus, .btn-self-success.focus {
+    color: var(--dashboard-btn-self-success-text-color);
+    background-color: var(--dashboard-btn-self-success-hover-color);
+    border-color: var(--dashboard-btn-self-success-hover-border-color);
+    box-shadow: var(--dashboard-btn-self-success-box-shadow-color);
+}
+
+.btn-self-success.disabled, .btn-self-success:disabled {
+    color: var(--dashboard-btn-self-success-text-color);
+    background-color: var(--dashboard-btn-self-success-color);
+    border-color: var(--dashboard-btn-self-success-color);
+}
+
+.btn-self-success:not(:disabled):not(.disabled):active, .btn-self-success:not(:disabled):not(.disabled).active,
+.show > .btn-self-success.dropdown-toggle {
+    color: var(--dashboard-btn-self-success-text-color);
+    background-color: var(--dashboard-btn-self-success-hover-border-color);
+    border-color: var(--dashboard-btn-self-success-hover-border-color-disabled);
+}
+
+.btn-self-success:not(:disabled):not(.disabled):active:focus, .btn-self-success:not(:disabled):not(.disabled).active:focus,
+.show > .btn-self-success.dropdown-toggle:focus {
+    box-shadow: var(--dashboard-btn-self-success-box-shadow-color);
+}
+
+
+.btn-self-primary {
+    color: var(--dashboard-btn-self-primary-text-color);
+    background-color: var(--dashboard-btn-self-primary-color);
+    border-color: var(--dashboard-btn-self-primary-color);
+}
+
+.btn-self-primary:hover {
+    color: var(--dashboard-btn-self-primary-text-color);
+    background-color: var(--dashboard-btn-self-primary-hover-color);
+    border-color: var(--dashboard-btn-self-primary-hover-border-color);
+}
+
+.btn-self-primary:focus, .btn-self-primary.focus {
+    color: var(--dashboard-btn-self-primary-text-color);
+    background-color: var(--dashboard-btn-self-primary-hover-color);
+    border-color: var(--dashboard-btn-self-primary-hover-border-color);
+    box-shadow: var(--dashboard-btn-self-primary-box-shadow-color);
+}
+
+.btn-self-primary.disabled, .btn-self-primary:disabled {
+    color: var(--dashboard-btn-self-primary-text-color);
+    background-color: var(--dashboard-btn-self-primary-color);
+    border-color: var(--dashboard-btn-self-primary-color);
+}
+
+.btn-self-primary:not(:disabled):not(.disabled):active, .btn-self-primary:not(:disabled):not(.disabled).active,
+.show > .btn-self-primary.dropdown-toggle {
+    color: var(--dashboard-btn-self-primary-text-color);
+    background-color: var(--dashboard-btn-self-primary-hover-border-color);
+    border-color: var(--dashboard-btn-self-primary-hover-border-color-disabled);
+}
+
+.btn-self-primary:not(:disabled):not(.disabled):active:focus, .btn-self-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-self-primary.dropdown-toggle:focus {
+    box-shadow: var(--dashboard-btn-self-primary-box-shadow-color);
+}

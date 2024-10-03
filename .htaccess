@@ -1,0 +1,15 @@
+#<FilesMatch "\.(?i:gif|jpe?g|png|svg|ico)$">
+#      <IfModule mod_headers.c>
+#        Header set Cache-Control "max-age=31557600, public, must-revalidate"
+#      </IfModule>
+#</FilesMatch>
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+RewriteRule ^(.*)index\.(php|html?)$ /$1 [R=301,NC,L]
+
+RewriteCond %{REQUEST_URI} !^public
+RewriteRule ^(.*)$ public/$1 [L]

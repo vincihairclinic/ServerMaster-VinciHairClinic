@@ -1,0 +1,24 @@
+img.selectable{
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    transform: scale(0.8);
+
+}
+
+span.imgCheckbox0{
+    /*border: 2px solid #ff4081;*/
+    /*border: 1px solid #ccc;*/
+
+    /*background-color: #ff4081;*/
+    /*background-color: #ccc;*/
+
+    background-color: #fff;
+
+
+
+    /*background-color: rgb(121,85,72);*/
+    /*background-color: #f9f9f9;*/
+}
+span.imgCheckbox0.imgChked{
+    /*border: 0px solid transparent;*/
+}

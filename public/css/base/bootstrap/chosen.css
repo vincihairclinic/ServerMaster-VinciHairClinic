@@ -1,0 +1,9 @@
+b.group-name:after{
+    content: ': ';
+}
+.chosen-container-single .chosen-single {
+    min-height: 38px;
+}
+.chosen-container-single .chosen-single div b{
+    background-position-y: 9px;
+}

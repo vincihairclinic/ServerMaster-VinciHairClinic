@@ -1,0 +1,38 @@
+<FilesMatch "\.(jpg|jpeg|png|gif|svg)$">
+    Header set Access-Control-Allow-Origin "*"
+</FilesMatch>
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresDefault "access plus 1 seconds"
+    ExpiresByType image/gif "access plus 31557600 seconds"
+    ExpiresByType image/jpeg "access plus 31557600 seconds"
+    ExpiresByType image/png "access plus 31557600 seconds"
+    ExpiresByType image/svg+xm "access plus 31557600 seconds"
+    ExpiresByType image/x-icon "access plus 31557600 seconds"
+</IfModule>
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    RewriteCond %{HTTPS} off [OR]
+    RewriteCond %{HTTP_HOST} ^www\. [NC]
+    RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
+    RewriteRule ^ https://%1%{REQUEST_URI} [L,NE,R=301]
+
+    RewriteRule ^sitemap.xml$ /sitemap/%{HTTP_HOST}/sitemap.xml [L]
+    #RewriteRule ^ads.txt$ /ads/%{HTTP_HOST}/ads.txt [L]
+
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
+
